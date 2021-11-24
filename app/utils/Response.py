@@ -1,5 +1,4 @@
 import json
-import logging
 
 
 def build_response(resp_code, response):

@@ -1,9 +1,10 @@
 import logging
+from os import getenv
 
 from boto3 import resource
 
-DYNAMO_TABLE = 'stat'  # getenv("DYNAMO_TABLE")
-AGGREGATION_KEY = 'aggregation'  # getenv("AGGREGATION_KEY")
+DYNAMO_TABLE = getenv("DYNAMO_TABLE")
+AGGREGATION_KEY = getenv("AGGREGATION_KEY")
 
 dynamodb = resource('dynamodb')
 stat_table = dynamodb.Table(DYNAMO_TABLE)

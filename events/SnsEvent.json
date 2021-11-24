@@ -1,0 +1,36 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:142347585731:test:b56a35e4-ba46-4b6c-8e92-dd90c4685278",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "f14c33f9-9eda-5df0-af9b-69e1ee8ee299",
+        "TopicArn": "arn:aws:sns:us-east-1:142347585731:test",
+        "Subject": "None",
+        "Message": "{\"isMutant\": true}",
+        "Timestamp": "2021-11-24T16:53:40.321Z",
+        "SignatureVersion": "1",
+        "MessageAttributes": {
+        }
+      }
+    },
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:142347585731:test:b56a35e4-ba46-4b6c-8e92-dd90c4685278",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "f14c33f9-9eda-5df0-af9b-69e1ee8ee299",
+        "TopicArn": "arn:aws:sns:us-east-1:142347585731:test",
+        "Subject": "None",
+        "Message": "{\"isMutant\": false}",
+        "Timestamp": "2021-11-24T16:53:40.321Z",
+        "SignatureVersion": "1",
+        "MessageAttributes": {
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-from app.persistence.StatDynamoDb import StatDynamoDb
 from app.handlers.Handler import Handler
+from app.persistence.StatDynamoDb import StatDynamoDb
 
 
-class StatHandler(Handler):
+class StatRestHandler(Handler):
 
     def __init__(self, event):
         super().__init__(event)
