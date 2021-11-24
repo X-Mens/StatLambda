@@ -1,6 +1,6 @@
 import json
 
-from app.StatDynamoDb.StatDynamoDb import StatDynamoDb
+from app.persistence.StatDynamoDb import StatDynamoDb
 
 
 class StatConsumerHandler:
