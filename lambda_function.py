@@ -26,7 +26,7 @@ def get_handler_type(event):
         handler_type = Handlers["default"]
         handler_path = f"{http_method}_{resource}"
         if handler_path in Handlers:
-            handler_type = Handlers['handler_path']
+            handler_type = Handlers[handler_path]
     else:
         handler_type = StatConsumerHandler
     return handler_type
