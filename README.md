@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introduction
 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this
@@ -27,3 +28,6 @@ can also seek inspiration from the below readme files:
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
+=======
+# StatLambda
+>>>>>>> 960d679bdbd2ce93853c8afa1a009828c342c58d
